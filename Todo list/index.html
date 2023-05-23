@@ -12,16 +12,11 @@
     <div class="app">
         <div class="add-task">
             <input type="text" class="add-task__input" id="add-task__input" placeholder="Add Task">
-           <button type="submit" onclick="myfunc()" >Add Task</button>
+           <!-- <button type="submit" onclick="myfunc()" >Add Task</button> -->
+           <button type="submit" id="add-task-button">Add Task</button>
         <div/>
-        <div class="task-list">
-            <ui class="task-list">
-                <li class="task-list__item">
-                    <div class="task-list__item__text">
-                        <p>Task 1</p>
-                    </div>
-                </li>
-            </ui>
+        <div class="task-container">
+            <ui id="task-list"></ui>
         </div>
     <div/>
 
