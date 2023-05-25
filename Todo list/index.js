@@ -1,4 +1,4 @@
-"use strict";
+"use strict"
 
 // function myfunc() {
 //   let inputTask = document.getElementById("add-task__input");
@@ -48,6 +48,7 @@ clickButton.addEventListener("click", function () {
     let listTask = document.createElement("li");
     listTask.textContent = inputTask;
     taskList.appendChild(listTask);
-    inputTask = "";
+    getTask.value = '';
+    listTask.style.backgroundColor = 'green'; // temporary color added.
   }
 });
