@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body, html{
+    background-color: rgb(255, 245, 235);
+}
+
+#header{
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    border-radius: 5px;
+}
+.app{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: azure; */
+    /* width: 50rem; */
+}

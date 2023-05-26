@@ -49,6 +49,6 @@ clickButton.addEventListener("click", function () {
     listTask.textContent = inputTask;
     taskList.appendChild(listTask);
     getTask.value = '';
-    listTask.style.backgroundColor = 'green'; // temporary color added.
+    // listTask.style.backgroundColor = 'green'; // temporary color added.
   }
 });
