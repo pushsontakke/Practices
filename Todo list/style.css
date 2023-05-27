@@ -14,12 +14,35 @@ body, html{
     background-color: rgb(50, 50, 50);
     border-radius: 5px;
 }
+
 .app{
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: azure; */
-    /* width: 50rem; */
+}
+
+.add-task{
+    background-color:honeydew;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-task input {
+    background-color: bisque;
+    margin: 1rem;
+    padding: 1rem 15rem;
+    border-radius: 0.25em;
+    border: none;
+    font-family: inter;
+    font-size: 1rem;
+}
+
+::placeholder {
+    font-family: pacifico;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #7f7f7f;
 }
