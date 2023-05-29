@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
-body, html{
+body,
+html {
     background-color: rgb(255, 245, 235);
 }
 
-#header{
-    font-family: 'Pacifico', cursive;
+#header { /* main Header section which contain heading */
+    font-family: "Pacifico", cursive;
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -15,34 +16,38 @@ body, html{
     border-radius: 5px;
 }
 
-.app{
+.app { /* main container which contain app */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.add-task{
-    background-color:honeydew;
+.add-task { /* input & button which doing main function*/
+    background-color: honeydew;
     padding: 1rem;
     display: flex;
     flex-direction: column;
 }
 
-.add-task input {
+#add-task__input { /* input field which takes task*/
     background-color: bisque;
     margin: 1rem;
     padding: 1rem 15rem;
     border-radius: 0.25em;
     border: none;
+    text-align: center;
     font-family: inter;
     font-size: 1rem;
 }
 
-::placeholder {
+#add-task__input:focus::placeholder{ /* :focus --- gives affect when field is clicked. */
+    color: black;
+}
+
+::placeholder {  /* for all placeholder is been used. */
     font-family: pacifico;
     font-weight: 500;
     font-size: 1.5rem;
-    text-align: center;
     color: #7f7f7f;
 }

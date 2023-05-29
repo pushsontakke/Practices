@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 
 let getTask = document.getElementById("add-task__input");
 let clickButton = document.getElementById("add-task-button");
@@ -10,6 +10,6 @@ clickButton.addEventListener("click", function () {
     let listTask = document.createElement("li");
     listTask.textContent = inputTask;
     taskList.appendChild(listTask);
-    getTask.value = '';
+    getTask.value = "";
   }
 });
