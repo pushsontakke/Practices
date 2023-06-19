@@ -5,7 +5,8 @@ html {
     background-color: rgb(255, 245, 235);
 }
 
-#header { /* main Header section which contain heading */
+#header {
+    /* main Header section which contain heading */
     font-family: "Pacifico", cursive;
     font-size: 1rem;
     font-weight: 400;
@@ -16,21 +17,24 @@ html {
     border-radius: 5px;
 }
 
-.app { /* main container which contain app */
+.app {
+    /* main container which contain app */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.add-task { /* input & button which doing main function*/
+.add-task {
+    /* input & button which doing main function */
     background-color: honeydew;
     padding: 1rem;
     display: flex;
     flex-direction: column;
 }
 
-#add-task__input { /* input field which takes task*/
+#add-task__input {
+    /* input field which takes task */
     background-color: bisque;
     margin: 1rem;
     padding: 1rem 15rem;
@@ -41,11 +45,13 @@ html {
     font-size: 1rem;
 }
 
-#add-task__input:focus::placeholder{ /* :focus --- gives affect when field is clicked. */
+#add-task__input:focus::placeholder {
+    /* :focus --- gives affect when field is clicked. */
     color: black;
 }
 
-::placeholder {  /* for all placeholder is been used. */
+::placeholder {
+    /* for all placeholder is been used. */
     font-family: pacifico;
     font-weight: 500;
     font-size: 1.5rem;
