@@ -20,16 +20,24 @@
 
     <!-- main section-->
     <div class="container">
-        <!-- <h3>Choose your corrency</h3>
+        <h1>Choose your corrency</h1>
         <form action="" method="get">
             <label for="quantity">From: </label>
             <input type="number" name="quantity" min="1" max="10">
-        </form> -->
+            <label for="currency">To: </label>
+            <select name="currency" id="select-currency">
+                <option value="INR">Indian Rupee</option>
+                <option value="USD">US Dollar</option>
+                <option value="EUR">Euro</option>
+            </select>
+            <button type="submit" class="btn">Convert</button>
+        </form>
     </div>
 
     <!-- footer -->
     <footer>
         &copy; 2023 Currency Converter App | All Rights Reserved
     </footer>
+    <script src="main.js"></script>
 </body>
-</html>
+</html> 
