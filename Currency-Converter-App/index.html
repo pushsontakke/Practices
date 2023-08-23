@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
     <!-- navigation -->
     <!-- TODO: create different navigation  -->
+    <!-- TODO: stick the nav bar to the top -->
     <nav>  
         <a href="/index.html"><img id="logo" src="logo.png" alt="Currency Converter logo"></a>
         <ul>
@@ -32,28 +34,21 @@
             </select>
             <button type="submit" class="btn">Convert</button>
         </form>
-        <div class="output">
 
+        <!-- TODO: Add borders to the table  -->
+        <!-- TODO: change font and style. make bold heading.-->
+        <div class="output">
+            <h2>Here is your converted values in different currencies</h2>
             <table>
                 <!-- <caption>output</caption> -->
                 <thead>
                     <tr>
-                        <th></th>
-                        <th></th>
-                        <th></th>
+                        <th>Currency</th>
+                        <th>Currency Code</th>
+                        <th>Value</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
                 </tbody>
             </table>
         </div>
@@ -63,6 +58,7 @@
     <footer>
         &copy; 2023 Currency Converter App | All Rights Reserved
     </footer>
-    <script src="main.js"></script>
+
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html> 

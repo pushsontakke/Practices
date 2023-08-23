@@ -14,7 +14,7 @@ body{
     min-height: 100vh;
 }
 
-.container h1 {
+.container h1, h2 {
     text-align: center;
     margin: 3%;
 }
@@ -94,9 +94,29 @@ nav li a:hover {
     color: rgb(156, 145, 255);
 }
 
+.output{
+    display: none;
+}
+
+.output table {
+    width: 60vw;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    margin: auto;
+    text-align: center;
+}
+
 footer{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
 }
+
+/* For Responsiveness*/
+
+/* @media (max-width: 750px){
+    body{
+        background-color: rgb(70, 216, 216);
+    }
+} */
