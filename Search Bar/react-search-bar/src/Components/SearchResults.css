@@ -1,0 +1,25 @@
+.result-list{
+    background-color: rgb(228, 225, 225);
+    width: 100%;
+    /* min-width: 200px; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.resultOnly{
+    padding: 10px;
+}
+.resultOnly:hover{
+    background-color: white;
+}
+
+
+
+/* TODO: set the width of this result list equal to the search bar. so that It should be as responsive as search bar. */
+
+/* TODO: when property overflow-y is set to scroll, then scroll bar automatically comes. it should not happen like that. when user scroll then only it should appear.*/
