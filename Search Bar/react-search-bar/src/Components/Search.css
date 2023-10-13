@@ -1,6 +1,6 @@
 #searchBar{
     background-color: whitesmoke;
-    width: 100%;
+    max-width: 100%;
     min-width: 200px;
     padding: 5px;
     display: flex;
