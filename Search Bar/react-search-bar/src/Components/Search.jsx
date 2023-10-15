@@ -35,11 +35,12 @@ export const Search = ({ setResults }) => {
 
   const performSearch = async () => {
     try {
-      let response = await Axios
-        .get
-        // "<your api key here>"
-        // https://jsonplaceholder.typicode.com/ go to this link and use it.
-        ();
+      let response = await Axios.get(
+        "https://jsonplaceholder.typicode.com/users"
+      );
+      // "<your api key here>"
+      // https://jsonplaceholder.typicode.com/ go to this link and use it.
+
       setData(response.data);
 
       // ******************* we can use inside function too********
