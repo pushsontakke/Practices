@@ -1,14 +1,17 @@
 #searchBar{
     background-color: whitesmoke;
-    width: 100%;
+    max-width: 100%;
     min-width: 200px;
-    padding: 5px;
+    padding: 15px;
     display: flex;
     align-items: center;
+    border-radius: 10px 10px 0 0;
 }
 
 input{
     background-color: transparent;
+    border-radius: 12px;
+
     border: none;
     height: 100%;
     width: 100%;
